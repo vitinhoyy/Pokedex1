@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/video/pokebola.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokedex</title>
+</head>
+
+<body>
+    <!-- Faixa com título e campo de pesquisa -->
+    <div class="header">
+        <h1>Pokedex</h1>
+        <input type="text" id="search" placeholder="Pesquisar Pokémon...">
+    </div>
+
+    <!-- Vídeo de fundo -->
+    <video autoplay muted loop id="background-video">
+        <source src="video/videoplayback.mp4" type="video/mp4">
+    </video>
+
+    <div class="pokeContainer" id="pokeContainer"></div>
+
+    <!-- Música de fundo -->
+    <audio id="background-music" loop>
+        <source src="video/Canalave City.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- Controle de volume -->
+    <div id="volume-control" class="volume-control">
+        <div id="volume-icon" class="volume-icon">🔊</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

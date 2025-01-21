@@ -1,6 +1,6 @@
 const pokeContainer = document.querySelector("#pokeContainer");
 const searchInput = document.querySelector("#search");  // Pegando o input de pesquisa
-const pokemonCount = 151;
+const pokemonCount = 1031;
 const music = document.querySelector("#background-music");
 const volumeIcon = document.querySelector("#volume-icon");
 

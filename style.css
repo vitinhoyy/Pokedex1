@@ -84,7 +84,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0 auto;
     max-width: 1200px;
     margin-top: 70px; /* Espaçamento para não cobrir o título */
